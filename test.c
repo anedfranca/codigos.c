@@ -1,3 +1,4 @@
+//PERGUNTE AO USUARIO SUA IDADE E IMPRIMA SE É MAIOR OU MENOR
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -27,7 +28,7 @@ if (idade<= 18){
 
 
 
-//comentario//
+//PERGUNTE O NOME, AS NOTAS E IMPRIMA A MEDIA
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -58,7 +59,32 @@ if (media<6){
   printf ("Aprovado!! Sua média foi: %.1f \n" ,media );
 
 }
-
 }
+}
+
+//
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+  char nome[15];
+  int idade;
+  int genero; //0- HOMEM 1- MULHER
+
+  printf ("Digite seu nome: ");
+  scanf ("%s" , &nome);
+  printf ("Digite sua idade: ");
+  scanf ("%d" ,&idade);
+  printf ("Genero 0- HOMEM 1-MULHER: ");
+  scanf ("%d" ,&genero);
+
+  if (genero == 1){
+    printf ("nome: %s, idade: %d anos, mulher" ,nome, idade, genero);
+  }else{
+    if (genero == 0){
+      if (idade<18)
+    }
+  }
 }
  
